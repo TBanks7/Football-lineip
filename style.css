@@ -1,0 +1,55 @@
+#pitch-div{
+    position: relative;
+    height: 550px;
+}
+
+#pitch{
+    height: inherit;
+}
+
+#goalie{
+    position: absolute;
+    top: 235px;
+    left: 35px;
+}
+
+#defence-line{
+    height: fill-available;
+    height: -webkit-fill-available;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    display: grid;
+    align-content: space-around;
+    margin: 27px 0 27px;
+}
+
+#midfield-line{
+    height: fill-available;
+    height: -webkit-fill-available;
+    position: absolute;
+    top: 0px;
+    left: 370px;
+    display: grid;
+    align-content: space-around;
+    margin: 27px 0 27px;
+}
+
+#attack-line{
+    height: fill-available;
+    height: -webkit-fill-available;
+    position: absolute;
+    top: 0px;
+    left: 600px;
+    display: grid;
+    align-content: space-around;
+    margin: 27px 0 27px;
+}
+
+/* .grid-container{
+    display: grid;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+} */
+
